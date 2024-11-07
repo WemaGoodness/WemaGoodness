@@ -78,6 +78,8 @@
 
 <p align="center"> <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" alt="WemaGoodness" /> </p>
 
+<br>
+
 <p align="center">
   <img src="https://github.com/WemaGoodness.png" alt="WemaGoodness"  width="100" style="border-radius: 50%;">
 </p>
