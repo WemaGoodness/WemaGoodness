@@ -81,7 +81,7 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/WemaGoodness.png" alt="WemaGoodness"  width="100" style="border-radius: 50%;">
+  <img src="https://github.com/WemaGoodness.png"  width="100" style="border-radius: 50%;">
 </p>
 
 
