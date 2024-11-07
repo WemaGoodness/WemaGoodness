@@ -30,7 +30,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/stackoverflow/stackoverflow-original.svg" title="Stack Overflow" alt="Stack Overflow" width="30" height="30"/>&nbsp; I’m looking for guidance on best practices for building scalable and maintainable backend systems.
 </p>
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/discord/discord-original.svg" title="Discord" alt="Discord" width="30" height="30"/>&nbsp; Ask me about my experience with Node.js, Python, and building RESTful APIs. I'm also happy to share my ALX journey and insights.
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/discord.svg" title="Discord" alt="Discord" width="30" height="30"/>&nbsp; Ask me about my experience with Node.js, Python, and building RESTful APIs. I'm also happy to share my ALX journey and insights.
 </p>
 <p align="left">
   🎮 ⚡ Fun fact: I can code for hours while listening to epic game soundtracks! 🎧
@@ -41,28 +41,28 @@
 
 <h3 align="left">Languages and Frameworks:</h3>
 
-<p align="left">
+<p align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
   </a>
@@ -72,9 +72,15 @@
 
 <h3 align="left">My GitHub Stats:</h3>
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=WemaGoodness&show_icons=true&theme=radical" alt="WemaGoodness" /> </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=WemaGoodness&show_icons=true&theme=radical" alt="WemaGoodness" />
+</p>
 
-<p align="center"> <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" alt="WemaGoodness" /> </p>
+<p align="center"> 
+  <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" alt="WemaGoodness" /> 
+  <img width="115" align="center" src="https://github.com/WemaGoodness.png" alt="WemaGoodness" />
+</p>
+
 
 <br>
 
