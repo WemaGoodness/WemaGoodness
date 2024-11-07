@@ -73,15 +73,15 @@
 <h3 align="left">My GitHub Stats:</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WemaGoodness&show_icons=true&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api?username=WemaGoodness&show_icons=true&theme=radical" alt="WemaGoodness" />
 </p>
 
-<p align="center"> <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" /> </p>
+<p align="center"> <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" alt="WemaGoodness" /> </p>
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/WemaGoodness.png"  width="100" style="border-radius: 50%;">
+  <img src="https://github.com/WemaGoodness.png" alt="WemaGoodness"  width="100" style="border-radius: 50%;">
 </p>
 
 
