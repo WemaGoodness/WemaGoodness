@@ -76,9 +76,10 @@
   <img src="https://github-readme-stats.vercel.app/api?username=WemaGoodness&show_icons=true&theme=radical" alt="WemaGoodness" />
 </p>
 
-<p align="center"> 
-  <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" alt="WemaGoodness" /> 
-  <img width="115" align="center" src="https://github.com/WemaGoodness.png" alt="WemaGoodness" />
+<p align="center"> <img src="https://github-readme-streak-stats.vercel.app/?user=WemaGoodness&theme=radical" alt="WemaGoodness" /> </p>
+
+<p align="center">
+  <img src="https://github.com/WemaGoodness.png" alt="WemaGoodness"  width="100" style="border-radius: 50%;">
 </p>
 
 
