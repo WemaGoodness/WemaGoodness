@@ -5,112 +5,36 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:000000&height=140&section=header&text=Goodness%20Wema&fontColor=ffffff&fontSize=42&fontAlignY=35" alt="decorative header wave"/>
 </p>
 
-<!-- Intro with avatar + bio in two columns -->
-<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border:0; border-collapse:collapse;">
-  <tr>
-    <td align="center" width="35%" style="border:0;">
-      <img src="./brand-avatar-frame.svg" alt="Avatar" width="180"/>
-    </td>
-    <td style="border:0;">
-      <h2>Clean architecture, delight</h2>
-      <p>
-        Hi, I’m <b>Goodness Wema</b> — a private software engineer from Nairobi. I build robust backends,
-        full‑stack apps, and delightful developer experiences. I also dabble in <b>space science</b>,
-        <b>remote sensing</b>, and <b>GIS</b>.
-      </p>
-      <p>
-        • Exploring <b>AWS/Azure</b> and practical <b>AI/ML</b> integrations<br/>
-        • Love building <b>REST/GraphQL</b> services, event‑driven systems, and tools for devs<br/>
-        • Open to <b>collabs</b> and interesting contracts<br/>
-      </p>
-<!-- Social & Contact Buttons (inline SVG, pill shaped, CSS hover scale, no sweep) -->
-      <p>
-        <a href="https://x.com/WemaGoodness" title="Follow on X">
-          <svg width="240" height="56" viewBox="0 0 260 56" xmlns="http://www.w3.org/2000/svg">
-            <style>
-              .btn { transition: transform .18s ease; transform-origin: 50% 50%; }
-              .btn:hover { transform: scale(1.05); }
-            </style>
-            <defs>
-              <linearGradient id="btnGradX" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#1f1f1f"/>
-                <stop offset="100%" stop-color="#000000"/>
-              </linearGradient>
-              <filter id="btnShadowX" x="-50%" y="-50%" width="200%" height="200%">
-                <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
-              </filter>
-            </defs>
-            <g class="btn" filter="url(#btnShadowX)">
-              <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradX)"/>
-              <g transform="translate(18,11)">
-                <circle cx="16" cy="16" r="16" fill="#000" stroke="#2a2a2a"/>
-                <g transform="translate(6,5) scale(0.7)" fill="#fff">
-                  <path d="M22.25 0h-4.2L9.65 11.1 3.7 4.25H0l8.1 9.4L0 24h4.2l8.85-10.35L19.3 20.3h3.7l-8.55-9.9L22.25 0z"/>
-                </g>
-                <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Follow on X</text>
-              </g>
-            </g>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/wema-goodness/" title="Connect on LinkedIn">
-          <svg width="260" height="56" viewBox="0 0 260 56" xmlns="http://www.w3.org/2000/svg">
-            <style>
-              .btn { transition: transform .18s ease; transform-origin: 50% 50%; }
-              .btn:hover { transform: scale(1.05); }
-            </style>
-            <defs>
-              <linearGradient id="btnGradL" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#1f1f1f"/>
-                <stop offset="100%" stop-color="#000000"/>
-              </linearGradient>
-              <filter id="btnShadowL" x="-50%" y="-50%" width="200%" height="200%">
-                <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
-              </filter>
-            </defs>
-            <g class="btn" filter="url(#btnShadowL)">
-              <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradL)"/>
-              <g transform="translate(18,11)">
-                <circle cx="16" cy="16" r="16" fill="#0A66C2"/>
-                <g transform="translate(7,7) scale(0.6)" fill="#fff">
-                  <path d="M4 3C2.34 3 1 4.34 1 6s1.34 3 3 3 3-1.34 3-3S5.66 3 4 3zM2 10h4v13H2V10zm7 0h3.8v1.78h.05c.53-1 1.82-2.06 3.75-2.06 4.01 0 4.75 2.64 4.75 6.07V23H17v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.41-2.07 2.86V23H9V10z"/>
-                </g>
-                <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Connect on LinkedIn</text>
-              </g>
-            </g>
-          </svg>
-        </a>
-        <a href="mailto:goodnesswemaa@gmail.com" title="Email Me">
-          <svg width="220" height="56" viewBox="0 0 260 56" xmlns="http://www.w3.org/2000/svg">
-            <style>
-              .btn { transition: transform .18s ease; transform-origin: 50% 50%; }
-              .btn:hover { transform: scale(1.05); }
-            </style>
-            <defs>
-              <linearGradient id="btnGradE" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#1f1f1f"/>
-                <stop offset="100%" stop-color="#000000"/>
-              </linearGradient>
-              <filter id="btnShadowE" x="-50%" y="-50%" width="200%" height="200%">
-                <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
-              </filter>
-            </defs>
-            <g class="btn" filter="url(#btnShadowE)">
-              <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradE)"/>
-              <g transform="translate(18,11)">
-                <circle cx="16" cy="16" r="16" fill="#EA4335"/>
-                <g transform="translate(5,7) scale(0.7)">
-                  <rect x="0" y="2" width="22" height="16" rx="2" ry="2" fill="#fff"/>
-                  <path d="M1 3 L11 11 L21 3" stroke="#EA4335" stroke-width="3" fill="none"/>
-                </g>
-                <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Email Me</text>
-              </g>
-            </g>
-          </svg>
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+<!-- Intro with avatar + bio, no table borders -->
+<p>
+  <img src="./brand.png" width="180" align="left" alt="Avatar"
+       style="border-radius:50%; box-shadow:0 0 24px rgba(0,0,0,0.65); margin-right:18px;"/>
+</p>
+
+<h2>Clean architecture, delight</h2>
+<p>
+  Hi, I’m <b>Goodness Wema</b> — a private software engineer from Nairobi. I build robust backends,
+  full‑stack apps, and delightful developer experiences. I also dabble in <b>space science</b>,
+  <b>remote sensing</b>, and <b>GIS</b>.
+</p>
+<p>
+  • Exploring <b>AWS/Azure</b> and practical <b>AI/ML</b> integrations<br/>
+  • Love building <b>REST/GraphQL</b> services, event‑driven systems, and tools for devs<br/>
+  • Open to <b>collabs</b> and interesting contracts
+</p>
+
+<!-- Social & Contact Buttons (external SVGs with hover, no sweeps) -->
+<p>
+  <a href="https://x.com/WemaGoodness" title="Follow on X">
+    <img src="./button-x.svg" alt="Follow on X"/>
+  </a>
+  <a href="https://www.linkedin.com/in/wema-goodness/" title="Connect on LinkedIn">
+    <img src="./button-linkedin.svg" alt="Connect on LinkedIn"/>
+  </a>
+  <a href="mailto:goodnesswemaa@gmail.com" title="Email Me">
+    <img src="./button-email.svg" alt="Email Me"/>
+  </a>
+</p>
 
 <!-- Short Bio -->
 <p align="center">
