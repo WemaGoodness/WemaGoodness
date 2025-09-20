@@ -6,12 +6,12 @@
 </p>
 
 <!-- Intro with avatar + bio in two columns -->
-<table>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border:0; border-collapse:collapse;">
   <tr>
-<td align="center" width="35%">
-      <img src="./brand.png" alt="Avatar" width="160" style="border-radius:50%; box-shadow: 0 0 24px rgba(0,0,0,0.65);"/>
+    <td align="center" width="35%" style="border:0;">
+      <img src="./brand-avatar-frame.svg" alt="Avatar" width="180"/>
     </td>
-    <td>
+    <td style="border:0;">
       <h2>Clean architecture, delight</h2>
       <p>
         Hi, I’m <b>Goodness Wema</b> — a private software engineer from Nairobi. I build robust backends,
@@ -23,12 +23,15 @@
         • Love building <b>REST/GraphQL</b> services, event‑driven systems, and tools for devs<br/>
         • Open to <b>collabs</b> and interesting contracts<br/>
       </p>
-      <!-- Social & Contact Buttons (inline SVG, pill shaped, hover scale) -->
+<!-- Social & Contact Buttons (inline SVG, pill shaped, CSS hover scale, no sweep) -->
       <p>
         <a href="https://x.com/WemaGoodness" title="Follow on X">
           <svg width="240" height="56" viewBox="0 0 260 56" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .btn { transition: transform .18s ease; transform-origin: 50% 50%; }
+              .btn:hover { transform: scale(1.05); }
+            </style>
             <defs>
-              <clipPath id="pillClipX"><rect x="2" y="2" rx="28" ry="28" width="256" height="52"/></clipPath>
               <linearGradient id="btnGradX" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#1f1f1f"/>
                 <stop offset="100%" stop-color="#000000"/>
@@ -37,28 +40,25 @@
                 <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
               </filter>
             </defs>
-            <g filter="url(#btnShadowX)">
-              <g id="buttonX" clip-path="url(#pillClipX)">
-                <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradX)"/>
-                <g transform="translate(18,11)">
-                  <circle cx="16" cy="16" r="16" fill="#000" stroke="#2a2a2a"/>
-                  <g transform="translate(6,5) scale(0.7)" fill="#fff">
-                    <path d="M22.25 0h-4.2L9.65 11.1 3.7 4.25H0l8.1 9.4L0 24h4.2l8.85-10.35L19.3 20.3h3.7l-8.55-9.9L22.25 0z"/>
-                  </g>
-                  <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Follow on X</text>
+            <g class="btn" filter="url(#btnShadowX)">
+              <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradX)"/>
+              <g transform="translate(18,11)">
+                <circle cx="16" cy="16" r="16" fill="#000" stroke="#2a2a2a"/>
+                <g transform="translate(6,5) scale(0.7)" fill="#fff">
+                  <path d="M22.25 0h-4.2L9.65 11.1 3.7 4.25H0l8.1 9.4L0 24h4.2l8.85-10.35L19.3 20.3h3.7l-8.55-9.9L22.25 0z"/>
                 </g>
-                <rect x="-256" y="2" rx="28" ry="28" width="256" height="52" fill="#ffffff" opacity="0.15">
-                  <animate attributeName="x" from="-256" to="256" dur="3.8s" repeatCount="indefinite"/>
-                </rect>
+                <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Follow on X</text>
               </g>
-              <animateTransform xlink:href="#buttonX" attributeName="transform" type="scale" from="1" to="1.04" begin="mouseover" end="mouseout" dur="0.2s"/>
             </g>
           </svg>
         </a>
         <a href="https://www.linkedin.com/in/wema-goodness/" title="Connect on LinkedIn">
           <svg width="260" height="56" viewBox="0 0 260 56" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .btn { transition: transform .18s ease; transform-origin: 50% 50%; }
+              .btn:hover { transform: scale(1.05); }
+            </style>
             <defs>
-              <clipPath id="pillClipL"><rect x="2" y="2" rx="28" ry="28" width="256" height="52"/></clipPath>
               <linearGradient id="btnGradL" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#1f1f1f"/>
                 <stop offset="100%" stop-color="#000000"/>
@@ -67,28 +67,25 @@
                 <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
               </filter>
             </defs>
-            <g filter="url(#btnShadowL)">
-              <g id="buttonL" clip-path="url(#pillClipL)">
-                <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradL)"/>
-                <g transform="translate(18,11)">
-                  <circle cx="16" cy="16" r="16" fill="#0A66C2"/>
-                  <g transform="translate(7,7) scale(0.6)" fill="#fff">
-                    <path d="M4 3C2.34 3 1 4.34 1 6s1.34 3 3 3 3-1.34 3-3S5.66 3 4 3zM2 10h4v13H2V10zm7 0h3.8v1.78h.05c.53-1 1.82-2.06 3.75-2.06 4.01 0 4.75 2.64 4.75 6.07V23H17v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.41-2.07 2.86V23H9V10z"/>
-                  </g>
-                  <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Connect on LinkedIn</text>
+            <g class="btn" filter="url(#btnShadowL)">
+              <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradL)"/>
+              <g transform="translate(18,11)">
+                <circle cx="16" cy="16" r="16" fill="#0A66C2"/>
+                <g transform="translate(7,7) scale(0.6)" fill="#fff">
+                  <path d="M4 3C2.34 3 1 4.34 1 6s1.34 3 3 3 3-1.34 3-3S5.66 3 4 3zM2 10h4v13H2V10zm7 0h3.8v1.78h.05c.53-1 1.82-2.06 3.75-2.06 4.01 0 4.75 2.64 4.75 6.07V23H17v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.41-2.07 2.86V23H9V10z"/>
                 </g>
-                <rect x="-256" y="2" rx="28" ry="28" width="256" height="52" fill="#ffffff" opacity="0.15">
-                  <animate attributeName="x" from="-256" to="256" dur="3.8s" repeatCount="indefinite"/>
-                </rect>
+                <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Connect on LinkedIn</text>
               </g>
-              <animateTransform xlink:href="#buttonL" attributeName="transform" type="scale" from="1" to="1.04" begin="mouseover" end="mouseout" dur="0.2s"/>
             </g>
           </svg>
         </a>
         <a href="mailto:goodnesswemaa@gmail.com" title="Email Me">
           <svg width="220" height="56" viewBox="0 0 260 56" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .btn { transition: transform .18s ease; transform-origin: 50% 50%; }
+              .btn:hover { transform: scale(1.05); }
+            </style>
             <defs>
-              <clipPath id="pillClipE"><rect x="2" y="2" rx="28" ry="28" width="256" height="52"/></clipPath>
               <linearGradient id="btnGradE" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#1f1f1f"/>
                 <stop offset="100%" stop-color="#000000"/>
@@ -97,22 +94,16 @@
                 <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
               </filter>
             </defs>
-            <g filter="url(#btnShadowE)">
-              <g id="buttonE" clip-path="url(#pillClipE)">
-                <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradE)"/>
-                <g transform="translate(18,11)">
-                  <circle cx="16" cy="16" r="16" fill="#EA4335"/>
-                  <g transform="translate(5,7) scale(0.7)">
-                    <rect x="0" y="2" width="22" height="16" rx="2" ry="2" fill="#fff"/>
-                    <path d="M1 3 L11 11 L21 3" stroke="#EA4335" stroke-width="3" fill="none"/>
-                  </g>
-                  <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Email Me</text>
+            <g class="btn" filter="url(#btnShadowE)">
+              <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#btnGradE)"/>
+              <g transform="translate(18,11)">
+                <circle cx="16" cy="16" r="16" fill="#EA4335"/>
+                <g transform="translate(5,7) scale(0.7)">
+                  <rect x="0" y="2" width="22" height="16" rx="2" ry="2" fill="#fff"/>
+                  <path d="M1 3 L11 11 L21 3" stroke="#EA4335" stroke-width="3" fill="none"/>
                 </g>
-                <rect x="-256" y="2" rx="28" ry="28" width="256" height="52" fill="#ffffff" opacity="0.15">
-                  <animate attributeName="x" from="-256" to="256" dur="3.8s" repeatCount="indefinite"/>
-                </rect>
+                <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Email Me</text>
               </g>
-              <animateTransform xlink:href="#buttonE" attributeName="transform" type="scale" from="1" to="1.04" begin="mouseover" end="mouseout" dur="0.2s"/>
             </g>
           </svg>
         </a>
@@ -137,106 +128,26 @@
 <!-- Interdisciplinary Focus (animated, oval pills) -->
 <h3 align="center">Interdisciplinary Focus</h3>
 <p align="center">
-  <!-- pill: Space Science -->
-  <svg width="170" height="40" viewBox="0 0 170 40" xmlns="http://www.w3.org/2000/svg">
+  <svg width="820" height="44" viewBox="0 0 820 44" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <clipPath id="pill1"><rect x="2" y="2" rx="20" ry="20" width="166" height="36"/></clipPath>
-      <linearGradient id="pgrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2b2b2b"/>
+      <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1f1f1f"/>
         <stop offset="100%" stop-color="#000000"/>
       </linearGradient>
+      <filter id="pillShadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+      <style>
+        .pill { filter:url(#pillShadow); }
+        text { font: 600 14px 'Segoe UI', Roboto, Helvetica, Arial; fill:#fff; }
+      </style>
     </defs>
-    <g clip-path="url(#pill1)">
-      <rect x="2" y="2" rx="20" ry="20" width="166" height="36" fill="url(#pgrad1)"/>
-      <text x="20" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">SPACE SCIENCE</text>
-      <rect x="-180" y="2" rx="20" ry="20" width="180" height="36" fill="#ffffff" opacity="0.1">
-        <animate attributeName="x" from="-180" to="180" dur="4.5s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-  <!-- pill: Orbits | Sat Data -->
-  <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="pill2"><rect x="2" y="2" rx="20" ry="20" width="196" height="36"/></clipPath>
-      <linearGradient id="pgrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#3a2b52"/>
-        <stop offset="100%" stop-color="#000000"/>
-      </linearGradient>
-    </defs>
-    <g clip-path="url(#pill2)">
-      <rect x="2" y="2" rx="20" ry="20" width="196" height="36" fill="url(#pgrad2)"/>
-      <text x="18" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">ORBITS | SAT DATA</text>
-      <rect x="-200" y="2" rx="20" ry="20" width="200" height="36" fill="#ffffff" opacity="0.1">
-        <animate attributeName="x" from="-200" to="200" dur="5s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-  <!-- pill: Remote Sensing -->
-  <svg width="190" height="40" viewBox="0 0 190 40" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="pill3"><rect x="2" y="2" rx="20" ry="20" width="186" height="36"/></clipPath>
-      <linearGradient id="pgrad3" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#372b4b"/>
-        <stop offset="100%" stop-color="#000000"/>
-      </linearGradient>
-    </defs>
-    <g clip-path="url(#pill3)">
-      <rect x="2" y="2" rx="20" ry="20" width="186" height="36" fill="url(#pgrad3)"/>
-      <text x="22" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">REMOTE SENSING</text>
-      <rect x="-190" y="2" rx="20" ry="20" width="190" height="36" fill="#ffffff" opacity="0.1">
-        <animate attributeName="x" from="-190" to="190" dur="4.2s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-  <!-- pill: SAR | Optical -->
-  <svg width="170" height="40" viewBox="0 0 170 40" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="pill4"><rect x="2" y="2" rx="20" ry="20" width="166" height="36"/></clipPath>
-      <linearGradient id="pgrad4" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2f2b3f"/>
-        <stop offset="100%" stop-color="#000000"/>
-      </linearGradient>
-    </defs>
-    <g clip-path="url(#pill4)">
-      <rect x="2" y="2" rx="20" ry="20" width="166" height="36" fill="url(#pgrad4)"/>
-      <text x="26" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">SAR | OPTICAL</text>
-      <rect x="-170" y="2" rx="20" ry="20" width="170" height="36" fill="#ffffff" opacity="0.1">
-        <animate attributeName="x" from="-170" to="170" dur="4.8s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-  <!-- pill: GIS -->
-  <svg width="100" height="40" viewBox="0 0 100 40" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="pill5"><rect x="2" y="2" rx="20" ry="20" width="96" height="36"/></clipPath>
-      <linearGradient id="pgrad5" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#242424"/>
-        <stop offset="100%" stop-color="#000000"/>
-      </linearGradient>
-    </defs>
-    <g clip-path="url(#pill5)">
-      <rect x="2" y="2" rx="20" ry="20" width="96" height="36" fill="url(#pgrad5)"/>
-      <text x="34" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">GIS</text>
-      <rect x="-100" y="2" rx="20" ry="20" width="100" height="36" fill="#ffffff" opacity="0.1">
-        <animate attributeName="x" from="-100" to="100" dur="4.6s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-  <!-- pill: QGIS | GDAL | GeoPandas -->
-  <svg width="240" height="40" viewBox="0 0 240 40" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="pill6"><rect x="2" y="2" rx="20" ry="20" width="236" height="36"/></clipPath>
-      <linearGradient id="pgrad6" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2b2b2b"/>
-        <stop offset="100%" stop-color="#000000"/>
-      </linearGradient>
-    </defs>
-    <g clip-path="url(#pill6)">
-      <rect x="2" y="2" rx="20" ry="20" width="236" height="36" fill="url(#pgrad6)"/>
-      <text x="18" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">QGIS | GDAL | GEOPANDAS</text>
-      <rect x="-240" y="2" rx="20" ry="20" width="240" height="36" fill="#ffffff" opacity="0.1">
-        <animate attributeName="x" from="-240" to="240" dur="5.2s" repeatCount="indefinite"/>
-      </rect>
+    <g transform="translate(0,2)">
+      <g class="pill" transform="translate(0,0)"><rect x="0" y="0" rx="20" ry="20" width="150" height="40" fill="url(#pillGrad)"/><text x="18" y="26">SPACE SCIENCE</text></g>
+      <g class="pill" transform="translate(160,0)"><rect x="0" y="0" rx="20" ry="20" width="180" height="40" fill="url(#pillGrad)"/><text x="18" y="26">ORBITS | SAT DATA</text></g>
+      <g class="pill" transform="translate(350,0)"><rect x="0" y="0" rx="20" ry="20" width="170" height="40" fill="url(#pillGrad)"/><text x="18" y="26">REMOTE SENSING</text></g>
+      <g class="pill" transform="translate(530,0)"><rect x="0" y="0" rx="20" ry="20" width="140" height="40" fill="url(#pillGrad)"/><text x="24" y="26">SAR | OPTICAL</text></g>
+      <g class="pill" transform="translate(680,0)"><rect x="0" y="0" rx="20" ry="20" width="120" height="40" fill="url(#pillGrad)"/><text x="48" y="26">GIS</text></g>
     </g>
   </svg>
 </p>
@@ -247,14 +158,6 @@
 <h3 align="center">Core Stack</h3>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=300&color=FFFFFF&center=true&vCenter=true&width=900&lines=Python;TypeScript;JavaScript;Node.js;React+Native;Docker;MongoDB%2FMongoose;SQL%3A+PostgreSQL%2FMySQL;Ubuntu+%28Linux%29" alt="typing core stack" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,react,docker,mongodb,mysql,postgres,linux&theme=dark" alt="core stack icons"/>
-</p>
-
-<h3 align="center">Toolbox</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,react,redux,python,fastapi,sqlite,mysql,postgres,prisma,redis,docker,linux,git,github,githubactions,vercel,aws,azure,cloudflare,webpack,vite,rollup,figma,regex&perline=14&theme=dark" alt="skillicons"/>
 </p>
 
 
@@ -301,13 +204,25 @@
 <!-- --------------------------------------------------------- -->
 <h3 align="center">What I Do</h3>
 <p align="center">
-  <!-- pill templates for services -->
-  <svg width="190" height="40" viewBox="0 0 190 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="svc1"><rect x="2" y="2" rx="20" ry="20" width="186" height="36"/></clipPath><linearGradient id="svcgrad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#svc1)"><rect x="2" y="2" rx="20" ry="20" width="186" height="36" fill="url(#svcgrad1)"/><text x="18" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Backend APIs</text><rect x="-190" y="2" rx="20" ry="20" width="190" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-190" to="190" dur="4.6s" repeatCount="indefinite"/></rect></g></svg>
-  <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="svc2"><rect x="2" y="2" rx="20" ry="20" width="196" height="36"/></clipPath><linearGradient id="svcgrad2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#svc2)"><rect x="2" y="2" rx="20" ry="20" width="196" height="36" fill="url(#svcgrad2)"/><text x="20" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Microservices</text><rect x="-200" y="2" rx="20" ry="20" width="200" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-200" to="200" dur="4.9s" repeatCount="indefinite"/></rect></g></svg>
-  <svg width="190" height="40" viewBox="0 0 190 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="svc3"><rect x="2" y="2" rx="20" ry="20" width="186" height="36"/></clipPath><linearGradient id="svcgrad3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#svc3)"><rect x="2" y="2" rx="20" ry="20" width="186" height="36" fill="url(#svcgrad3)"/><text x="26" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Full‑Stack</text><rect x="-190" y="2" rx="20" ry="20" width="190" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-190" to="190" dur="4.3s" repeatCount="indefinite"/></rect></g></svg>
-  <svg width="230" height="40" viewBox="0 0 230 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="svc4"><rect x="2" y="2" rx="20" ry="20" width="226" height="36"/></clipPath><linearGradient id="svcgrad4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#svc4)"><rect x="2" y="2" rx="20" ry="20" width="226" height="36" fill="url(#svcgrad4)"/><text x="26" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Databases (SQL/NoSQL)</text><rect x="-230" y="2" rx="20" ry="20" width="230" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-230" to="230" dur="5.1s" repeatCount="indefinite"/></rect></g></svg>
-  <svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="svc5"><rect x="2" y="2" rx="20" ry="20" width="156" height="36"/></clipPath><linearGradient id="svcgrad5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#svc5)"><rect x="2" y="2" rx="20" ry="20" width="156" height="36" fill="url(#svcgrad5)"/><text x="46" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Cloud</text><rect x="-160" y="2" rx="20" ry="20" width="160" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-160" to="160" dur="4.4s" repeatCount="indefinite"/></rect></g></svg>
-  <svg width="220" height="40" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="svc6"><rect x="2" y="2" rx="20" ry="20" width="216" height="36"/></clipPath><linearGradient id="svcgrad6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#svc6)"><rect x="2" y="2" rx="20" ry="20" width="216" height="36" fill="url(#svcgrad6)"/><text x="18" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Game Prototyping</text><rect x="-220" y="2" rx="20" ry="20" width="220" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-220" to="220" dur="4.7s" repeatCount="indefinite"/></rect></g></svg>
+  <svg width="880" height="44" viewBox="0 0 880 44" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="svcgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1f1f1f"/>
+        <stop offset="100%" stop-color="#000000"/>
+      </linearGradient>
+      <filter id="svcShadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+      <style> text{font:600 14px 'Segoe UI', Roboto, Helvetica, Arial; fill:#fff;} </style>
+    </defs>
+    <g transform="translate(0,2)">
+      <g filter="url(#svcShadow)" transform="translate(0,0)"><rect x="0" y="0" rx="20" ry="20" width="170" height="40" fill="url(#svcgrad)"/><text x="20" y="26">Backend APIs</text></g>
+      <g filter="url(#svcShadow)" transform="translate(180,0)"><rect x="0" y="0" rx="20" ry="20" width="160" height="40" fill="url(#svcgrad)"/><text x="18" y="26">Microservices</text></g>
+      <g filter="url(#svcShadow)" transform="translate(350,0)"><rect x="0" y="0" rx="20" ry="20" width="140" height="40" fill="url(#svcgrad)"/><text x="28" y="26">Full‑Stack</text></g>
+      <g filter="url(#svcShadow)" transform="translate(500,0)"><rect x="0" y="0" rx="20" ry="20" width="210" height="40" fill="url(#svcgrad)"/><text x="16" y="26">Databases (SQL/NoSQL)</text></g>
+      <g filter="url(#svcShadow)" transform="translate(720,0)"><rect x="0" y="0" rx="20" ry="20" width="150" height="40" fill="url(#svcgrad)"/><text x="52" y="26">Cloud</text></g>
+    </g>
+  </svg>
 </p>
 
 <!-- Featured Projects (Pinned) -->
@@ -337,14 +252,23 @@
 <!-- Certifications -->
 <h3 align="center">Certifications</h3>
 <p align="center">
-  <!-- ALX -->
-  <svg width="220" height="40" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert1"><rect x="2" y="2" rx="20" ry="20" width="216" height="36"/></clipPath><linearGradient id="cgrad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert1)"><rect x="2" y="2" rx="20" ry="20" width="216" height="36" fill="url(#cgrad1)"/><text x="22" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">ALX Software Eng</text><rect x="-220" y="2" rx="20" ry="20" width="220" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-220" to="220" dur="4.6s" repeatCount="indefinite"/></rect></g></svg>
-  <!-- AWS CCP (in progress) -->
-  <svg width="270" height="40" viewBox="0 0 270 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert2"><rect x="2" y="2" rx="20" ry="20" width="266" height="36"/></clipPath><linearGradient id="cgrad2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert2)"><rect x="2" y="2" rx="20" ry="20" width="266" height="36" fill="url(#cgrad2)"/><text x="18" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">AWS Cloud Practitioner (in progress)</text><rect x="-270" y="2" rx="20" ry="20" width="270" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-270" to="270" dur="5s" repeatCount="indefinite"/></rect></g></svg>
-  <!-- Azure Fundamentals (in progress) -->
-  <svg width="270" height="40" viewBox="0 0 270 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert3"><rect x="2" y="2" rx="20" ry="20" width="266" height="36"/></clipPath><linearGradient id="cgrad3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert3)"><rect x="2" y="2" rx="20" ry="20" width="266" height="36" fill="url(#cgrad3)"/><text x="22" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Azure Fundamentals (in progress)</text><rect x="-270" y="2" rx="20" ry="20" width="270" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-270" to="270" dur="4.8s" repeatCount="indefinite"/></rect></g></svg>
-  <!-- RS & GIS (ongoing) -->
-  <svg width="260" height="40" viewBox="0 0 260 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert4"><rect x="2" y="2" rx="20" ry="20" width="256" height="36"/></clipPath><linearGradient id="cgrad4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert4)"><rect x="2" y="2" rx="20" ry="20" width="256" height="36" fill="url(#cgrad4)"/><text x="12" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Remote Sensing & GIS (ongoing)</text><rect x="-260" y="2" rx="20" ry="20" width="260" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-260" to="260" dur="5.2s" repeatCount="indefinite"/></rect></g></svg>
+  <svg width="880" height="44" viewBox="0 0 880 44" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="certgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1f1f1f"/>
+        <stop offset="100%" stop-color="#000000"/>
+      </linearGradient>
+      <filter id="certShadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+      <style> text{font:600 14px 'Segoe UI', Roboto, Helvetica, Arial; fill:#fff;} </style>
+    </defs>
+    <g transform="translate(0,2)">
+      <g filter="url(#certShadow)" transform="translate(0,0)"><rect x="0" y="0" rx="20" ry="20" width="210" height="40" fill="url(#certgrad)"/><text x="16" y="26">ALX Software Eng</text></g>
+      <g filter="url(#certShadow)" transform="translate(220,0)"><rect x="0" y="0" rx="20" ry="20" width="280" height="40" fill="url(#certgrad)"/><text x="10" y="26">AWS Cloud Practitioner (in progress)</text></g>
+      <g filter="url(#certShadow)" transform="translate(510,0)"><rect x="0" y="0" rx="20" ry="20" width="260" height="40" fill="url(#certgrad)"/><text x="12" y="26">Azure Fundamentals (in progress)</text></g>
+    </g>
+  </svg>
 </p>
 
 <!-- --------------------------------------------------------- -->
