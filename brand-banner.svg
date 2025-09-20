@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+  <!-- Black background to blend with the README's dark theme -->
+  <rect x="0" y="0" width="1600" height="500" fill="#000000"/>
+
+  <!-- Content group scaled around center to create a subtle breathing motion -->
+  <g id="content" transform="translate(800,250) scale(1) translate(-800,-250)" filter="url(#softGlow)">
+    <image href="brand.png" x="0" y="0" width="1600" height="500"/>
+    <animate attributeName="transform"
+             values="translate(800,250) scale(1) translate(-800,-250); translate(800,250) scale(1.02) translate(-800,-250); translate(800,250) scale(1) translate(-800,-250)"
+             dur="14s"
+             repeatCount="indefinite"
+             keyTimes="0;0.5;1"
+             calcMode="spline"
+             keySplines=".25,.1,.25,1;.25,.1,.25,1"/>
+  </g>
+</svg>

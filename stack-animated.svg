@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1000" height="140" fill="#000000"/>
+  <!-- Icons row with gentle bobbing / not too rigid staggered timings -->
+  <g filter="url(#softShadow)" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14">
+    <!-- Python -->
+    <g transform="translate(60,28)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48"/>
+      <text x="0" y="70">Python</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="60,28; 60,22; 60,28" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <!-- TypeScript -->
+    <g transform="translate(160,40)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="48" height="48"/>
+      <text x="-6" y="70">TypeScript</text>
+      <animateTransform attributeName="transform" type="translate" values="160,40; 160,34; 160,40" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <!-- JavaScript -->
+    <g transform="translate(270,30)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48"/>
+      <text x="-8" y="70">JavaScript</text>
+      <animateTransform attributeName="transform" type="translate" values="270,30; 270,26; 270,30" dur="5.5s" repeatCount="indefinite"/>
+    </g>
+    <!-- Node.js -->
+    <g transform="translate(380,36)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="48" height="48"/>
+      <text x="2" y="70">Node.js</text>
+      <animateTransform attributeName="transform" type="translate" values="380,36; 380,32; 380,36" dur="6.5s" repeatCount="indefinite"/>
+    </g>
+    <!-- React Native (React) -->
+    <g transform="translate(480,24)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="48" height="48"/>
+      <text x="-20" y="70">React Native</text>
+      <animateTransform attributeName="transform" type="translate" values="480,24; 480,20; 480,24" dur="6.8s" repeatCount="indefinite"/>
+    </g>
+    <!-- Docker -->
+    <g transform="translate(600,34)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48"/>
+      <text x="6" y="70">Docker</text>
+      <animateTransform attributeName="transform" type="translate" values="600,34; 600,28; 600,34" dur="7.2s" repeatCount="indefinite"/>
+    </g>
+    <!-- MongoDB (Mongoose) -->
+    <g transform="translate(700,26)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="48" height="48"/>
+      <text x="-12" y="70">MongoDB/Mongoose</text>
+      <animateTransform attributeName="transform" type="translate" values="700,26; 700,22; 700,26" dur="6.2s" repeatCount="indefinite"/>
+    </g>
+    <!-- SQL (MySQL + PostgreSQL) -->
+    <g transform="translate(840,22)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40"/>
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" x="44" width="40" height="40"/>
+      <text x="12" y="70">SQL</text>
+      <animateTransform attributeName="transform" type="translate" values="840,22; 840,18; 840,22" dur="6.7s" repeatCount="indefinite"/>
+    </g>
+    <!-- Ubuntu -->
+    <g transform="translate(940,34)">
+      <image href="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" width="48" height="48"/>
+      <text x="0" y="70">Ubuntu</text>
+      <animateTransform attributeName="transform" type="translate" values="940,34; 940,30; 940,34" dur="6.1s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>

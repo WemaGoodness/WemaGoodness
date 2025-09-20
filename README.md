@@ -5,9 +5,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:000000&height=140&section=header&text=Goodness%20Wema&fontColor=ffffff&fontSize=42&fontAlignY=35" alt="decorative header wave"/>
 </p>
 
-<!-- Hero Banner -->
+<!-- Hero Banner (animated) -->
 <p align="center">
-  <img src="./brand.png" alt="Goodness Wema — banner" width="100%" loading="lazy" />
+  <img src="./brand-banner.svg" alt="Goodness Wema — banner" width="85%" loading="lazy" />
 </p>
 
 <!-- ========================================================= -->
@@ -18,21 +18,17 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Backend+Engineer+%E2%80%A2+Full%E2%80%91Stack+Developer+%E2%80%A2+Game+Dev+Enthusiast;Clean+architecture%2C+delightful+DX%2C+performance-first;I+build+robust+APIs%2C+scalable+services%2C+and+playful+prototypes" alt="animated typing intro" />
 </p>
 
-<!-- Social & Contact Badges -->
+<!-- Social & Contact Buttons (3D, rounded) -->
 <p align="center">
   <a href="https://x.com/WemaGoodness" title="Follow on X/Twitter">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/WemaGoodness?style=for-the-badge&logo=x&logoColor=white&label=Follow" />
+    <img alt="Follow on X" src="./button-x.svg" />
   </a>
   <a href="https://www.linkedin.com/in/wema-goodness/" title="Connect on LinkedIn">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+    <img alt="Connect on LinkedIn" src="./button-linkedin.svg" />
   </a>
   <a href="mailto:goodnesswemaa@gmail.com" title="Email Me">
-    <img alt="Email" src="https://img.shields.io/badge/Email-hello%40goodnesswema-ff6b6b?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img alt="Email Me" src="./button-email.svg" />
   </a>
-  <a href="https://github.com/WemaGoodness" title="GitHub">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-WemaGoodness-24292E?style=for-the-badge&logo=github" />
-  </a>
-  <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=WemaGoodness&style=for-the-badge&color=blueviolet" />
 </p>
 
 <!-- Short Bio -->
@@ -59,6 +55,11 @@
 <!-- --------------------------------------------------------- -->
 <!-- Toolbox / Tech -->
 <!-- --------------------------------------------------------- -->
+<h3 align="center">Core Stack (animated)</h3>
+<p align="center">
+  <img src="./stack-animated.svg" alt="Animated core stack" width="90%"/>
+</p>
+
 <h3 align="center">Toolbox</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,react,redux,python,fastapi,sqlite,mysql,postgres,prisma,redis,docker,linux,git,github,githubactions,vercel,aws,azure,cloudflare,webpack,vite,rollup,figma,regex&perline=14&theme=dark" alt="skillicons"/>
@@ -83,10 +84,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WemaGoodness&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc" alt="top languages" />
 </p>
 
-<h4 align="center">WakaTime (last 7 days)</h4>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=WemaGoodness&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff" alt="wakatime"/>
-</p>
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WemaGoodness&theme=github-dark&hide_border=true&area=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff" alt="activity graph"/>
 </p>

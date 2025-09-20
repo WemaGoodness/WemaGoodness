@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="56" viewBox="0 0 260 56">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#g)" stroke="#2a2a2a"/>
+    <g transform="translate(18,11)">
+      <circle cx="16" cy="16" r="16" fill="#0A66C2" stroke="#2a2a2a"/>
+      <text x="50" y="20" fill="#ffffff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Connect on LinkedIn</text>
+      <!-- LinkedIn logo -->
+      <g transform="translate(7,7) scale(0.6)" fill="#ffffff">
+        <path d="M4 3C2.34 3 1 4.34 1 6s1.34 3 3 3 3-1.34 3-3S5.66 3 4 3zM2 10h4v13H2V10zm7 0h3.8v1.78h.05c.53-1 1.82-2.06 3.75-2.06 4.01 0 4.75 2.64 4.75 6.07V23H17v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.41-2.07 2.86V23H9V10z"/>
+      </g>
+    </g>
+    <rect x="2" y="2" rx="28" ry="28" width="256" height="52" fill="url(#shine)">
+      <animate attributeName="x" from="-260" to="260" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
