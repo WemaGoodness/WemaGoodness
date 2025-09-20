@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#000000" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circleClip">
+      <circle cx="160" cy="160" r="110"/>
+    </clipPath>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="320" height="320" fill="#000000"/>
+  <circle cx="160" cy="160" r="130" fill="url(#halo)" filter="url(#softGlow)">
+    <animate attributeName="r" values="128;132;128" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <g clip-path="url(#circleClip)" transform="translate(160,160) scale(0.9) translate(-160,-160)">
+    <image href="brand.png" x="40" y="40" width="240" height="240" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+</svg>
