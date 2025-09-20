@@ -8,8 +8,8 @@
 <!-- Intro with avatar + bio in two columns -->
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="./brand-avatar.svg" alt="Avatar" width="220"/>
+<td align="center" width="35%">
+      <img src="./brand.png" alt="Avatar" width="160" style="border-radius:50%; box-shadow: 0 0 24px rgba(0,0,0,0.65);"/>
     </td>
     <td>
       <h2>Clean architecture, delight</h2>
@@ -257,10 +257,6 @@
   <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,react,redux,python,fastapi,sqlite,mysql,postgres,prisma,redis,docker,linux,git,github,githubactions,vercel,aws,azure,cloudflare,webpack,vite,rollup,figma,regex&perline=14&theme=dark" alt="skillicons"/>
 </p>
 
-<!-- Trophies & Badges -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=WemaGoodness&theme=onedark&no-frame=true&no-bg=true&row=1&column=7" alt="trophies"/>
-</p>
 
 <!-- --------------------------------------------------------- -->
 <!-- Visual Metrics (Animated/Dynamic) -->
@@ -273,9 +269,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WemaGoodness&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc" alt="top languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WemaGoodness&theme=github-dark&hide_border=true&area=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff" alt="activity graph"/>
-</p>
 
 <!-- Dynamic Streak & Contributions -->
 <h3 align="center">Streaks & Contributions</h3>
@@ -286,10 +279,6 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WemaGoodness&theme=github_dark" alt="profile details with contributions" />
 </p>
 
-<!-- Optional: GitHub Metrics composite card -->
-<p align="center">
-  <img src="https://metrics.lecoq.io/WemaGoodness?template=classic&isocalendar=1&languages=1&followup=1&activity=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&isocalendar.duration=full-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&config.timezone=Africa%2FNairobi" alt="metrics"/>
-</p>
 
 <!-- Latest Posts -->
 <details>
@@ -348,10 +337,14 @@
 <!-- Certifications -->
 <h3 align="center">Certifications</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/ALX-Software%20Engineering-EE4C2C?style=for-the-badge" alt="ALX Software Engineering"/>
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner%20(in%20progress)-232F3E?style=for-the-badge&logo=amazonaws" alt="AWS Cloud Practitioner (in progress)"/>
-  <img src="https://img.shields.io/badge/Azure-Fundamentals%20(in%20progress)-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Fundamentals (in progress)"/>
-  <img src="https://img.shields.io/badge/Remote%20Sensing%20%26%20GIS-Courses%20(ongoing)-2c3e50?style=for-the-badge" alt="Remote Sensing & GIS Courses (ongoing)"/>
+  <!-- ALX -->
+  <svg width="220" height="40" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert1"><rect x="2" y="2" rx="20" ry="20" width="216" height="36"/></clipPath><linearGradient id="cgrad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert1)"><rect x="2" y="2" rx="20" ry="20" width="216" height="36" fill="url(#cgrad1)"/><text x="22" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">ALX Software Eng</text><rect x="-220" y="2" rx="20" ry="20" width="220" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-220" to="220" dur="4.6s" repeatCount="indefinite"/></rect></g></svg>
+  <!-- AWS CCP (in progress) -->
+  <svg width="270" height="40" viewBox="0 0 270 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert2"><rect x="2" y="2" rx="20" ry="20" width="266" height="36"/></clipPath><linearGradient id="cgrad2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert2)"><rect x="2" y="2" rx="20" ry="20" width="266" height="36" fill="url(#cgrad2)"/><text x="18" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">AWS Cloud Practitioner (in progress)</text><rect x="-270" y="2" rx="20" ry="20" width="270" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-270" to="270" dur="5s" repeatCount="indefinite"/></rect></g></svg>
+  <!-- Azure Fundamentals (in progress) -->
+  <svg width="270" height="40" viewBox="0 0 270 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert3"><rect x="2" y="2" rx="20" ry="20" width="266" height="36"/></clipPath><linearGradient id="cgrad3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert3)"><rect x="2" y="2" rx="20" ry="20" width="266" height="36" fill="url(#cgrad3)"/><text x="22" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Azure Fundamentals (in progress)</text><rect x="-270" y="2" rx="20" ry="20" width="270" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-270" to="270" dur="4.8s" repeatCount="indefinite"/></rect></g></svg>
+  <!-- RS & GIS (ongoing) -->
+  <svg width="260" height="40" viewBox="0 0 260 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="cert4"><rect x="2" y="2" rx="20" ry="20" width="256" height="36"/></clipPath><linearGradient id="cgrad4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2b2b2b"/><stop offset="100%" stop-color="#000000"/></linearGradient></defs><g clip-path="url(#cert4)"><rect x="2" y="2" rx="20" ry="20" width="256" height="36" fill="url(#cgrad4)"/><text x="12" y="26" fill="#fff" font-size="14" font-weight="600" font-family="Segoe UI, Roboto, Helvetica, Arial">Remote Sensing & GIS (ongoing)</text><rect x="-260" y="2" rx="20" ry="20" width="260" height="36" fill="#fff" opacity="0.1"><animate attributeName="x" from="-260" to="260" dur="5.2s" repeatCount="indefinite"/></rect></g></svg>
 </p>
 
 <!-- --------------------------------------------------------- -->
@@ -376,9 +369,9 @@
   I’m open to collaborations, private contracts, and interesting conversations. Reach out — I’d love to chat!
 </p>
 <p align="center">
-  <a href="https://x.com/WemaGoodness" title="DM on X"><img src="https://img.shields.io/badge/DM_on_X-000?style=for-the-badge&logo=x&logoColor=white" alt="DM on X"/></a>
-  <a href="mailto:goodnesswemaa@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-Me-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/wema-goodness/" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-Say%20Hi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://x.com/WemaGoodness" title="DM on X"><img src="./button-x.svg" alt="DM on X"/></a>
+  <a href="mailto:goodnesswemaa@gmail.com" title="Email"><img src="./button-email.svg" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/wema-goodness/" title="LinkedIn"><img src="./button-linkedin.svg" alt="LinkedIn"/></a>
 </p>
 
 <!-- Decorative Footer -->
