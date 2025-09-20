@@ -23,18 +23,6 @@
   • Open to <b>collabs</b> and interesting contracts
 </p>
 
-<!-- Social & Contact Buttons (external SVGs with hover, no sweeps) -->
-<p>
-  <a href="https://x.com/WemaGoodness" title="Follow on X">
-    <img src="./button-x.svg" alt="Follow on X"/>
-  </a>
-  <a href="https://www.linkedin.com/in/wema-goodness/" title="Connect on LinkedIn">
-    <img src="./button-linkedin.svg" alt="Connect on LinkedIn"/>
-  </a>
-  <a href="mailto:goodnesswemaa@gmail.com" title="Email Me">
-    <img src="./button-email.svg" alt="Email Me"/>
-  </a>
-</p>
 
 <!-- Short Bio -->
 <p align="center">
@@ -52,22 +40,46 @@
 <!-- Interdisciplinary Focus (animated, oval pills) -->
 <h3 align="center">Interdisciplinary Focus</h3>
 <p align="center">
-  <svg width="820" height="44" viewBox="0 0 820 44" xmlns="http://www.w3.org/2000/svg">
+  <svg width="820" height="52" viewBox="0 0 820 52" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" stop-color="#1f1f1f"/>
         <stop offset="100%" stop-color="#000000"/>
       </linearGradient>
+      <linearGradient id="gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
       <filter id="pillShadow" x="-50%" y="-50%" width="200%" height="200%">
-        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/>
+        <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
       </filter>
     </defs>
-    <g transform="translate(0,2)">
-      <g filter="url(#pillShadow)" transform="translate(0,0)"><rect x="0" y="0" rx="20" ry="20" width="150" height="40" fill="url(#pillGrad)"/><text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">SPACE SCIENCE</text></g>
-      <g filter="url(#pillShadow)" transform="translate(160,0)"><rect x="0" y="0" rx="20" ry="20" width="180" height="40" fill="url(#pillGrad)"/><text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">ORBITS | SAT DATA</text></g>
-      <g filter="url(#pillShadow)" transform="translate(350,0)"><rect x="0" y="0" rx="20" ry="20" width="170" height="40" fill="url(#pillGrad)"/><text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">REMOTE SENSING</text></g>
-      <g filter="url(#pillShadow)" transform="translate(530,0)"><rect x="0" y="0" rx="20" ry="20" width="140" height="40" fill="url(#pillGrad)"/><text x="24" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">SAR | OPTICAL</text></g>
-      <g filter="url(#pillShadow)" transform="translate(680,0)"><rect x="0" y="0" rx="20" ry="20" width="120" height="40" fill="url(#pillGrad)"/><text x="48" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">GIS</text></g>
+    <g transform="translate(0,6)">
+      <g filter="url(#pillShadow)" transform="translate(0,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="150" height="40" fill="url(#pillGrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="146" height="16" fill="url(#gloss)"/>
+        <text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">SPACE SCIENCE</text>
+      </g>
+      <g filter="url(#pillShadow)" transform="translate(160,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="180" height="40" fill="url(#pillGrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="176" height="16" fill="url(#gloss)"/>
+        <text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">ORBITS | SAT DATA</text>
+      </g>
+      <g filter="url(#pillShadow)" transform="translate(350,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="170" height="40" fill="url(#pillGrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="166" height="16" fill="url(#gloss)"/>
+        <text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">REMOTE SENSING</text>
+      </g>
+      <g filter="url(#pillShadow)" transform="translate(530,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="140" height="40" fill="url(#pillGrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="136" height="16" fill="url(#gloss)"/>
+        <text x="24" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">SAR | OPTICAL</text>
+      </g>
+      <g filter="url(#pillShadow)" transform="translate(680,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="120" height="40" fill="url(#pillGrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="116" height="16" fill="url(#gloss)"/>
+        <text x="48" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">GIS</text>
+      </g>
     </g>
   </svg>
 </p>
@@ -80,47 +92,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=300&color=FFFFFF&center=true&vCenter=true&width=900&lines=Python;TypeScript;JavaScript;Node.js;React+Native;Docker;MongoDB%2FMongoose;SQL%3A+PostgreSQL%2FMySQL;Ubuntu+%28Linux%29" alt="typing core stack" />
 </p>
 <p align="center">
-  <svg width="760" height="70" viewBox="0 0 760 70" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Core stack logos">
-    <defs>
-      <filter id="iconShadow" x="-50%" y="-50%" width="200%" height="200%">
-        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/>
-      </filter>
-    </defs>
-    <g transform="translate(10,10)">
-      <g filter="url(#iconShadow)" transform="translate(0,0)">
-        <image href="https://skillicons.dev/icons?i=python" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(80,0)">
-        <image href="https://skillicons.dev/icons?i=ts" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0.2s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(160,0)">
-        <image href="https://skillicons.dev/icons?i=nodejs" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0.4s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(240,0)">
-        <image href="https://skillicons.dev/icons?i=react" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0.6s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(320,0)">
-        <image href="https://skillicons.dev/icons?i=docker" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(400,0)">
-        <image href="https://skillicons.dev/icons?i=mongodb" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="1.0s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(480,0)">
-        <image href="https://skillicons.dev/icons?i=postgres" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="1.2s"/>
-      </g>
-      <g filter="url(#iconShadow)" transform="translate(560,0)">
-        <image href="https://skillicons.dev/icons?i=linux" width="48" height="48"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="1.4s"/>
-      </g>
-    </g>
-  </svg>
+  <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,docker,mongodb,postgres,linux&theme=dark&perline=8" alt="Core stack logos: Python, TypeScript, Node.js, React, Docker, MongoDB, Postgres, Linux" />
 </p>
 
 
@@ -135,22 +107,46 @@
 <!-- --------------------------------------------------------- -->
 <h3 align="center">What I Do</h3>
 <p align="center">
-  <svg width="880" height="44" viewBox="0 0 880 44" xmlns="http://www.w3.org/2000/svg">
+  <svg width="880" height="52" viewBox="0 0 880 52" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="svcgrad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" stop-color="#1f1f1f"/>
         <stop offset="100%" stop-color="#000000"/>
       </linearGradient>
+      <linearGradient id="svcgloss" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
       <filter id="svcShadow" x="-50%" y="-50%" width="200%" height="200%">
-        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/>
+        <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
       </filter>
     </defs>
-    <g transform="translate(0,2)">
-      <g filter="url(#svcShadow)" transform="translate(0,0)"><rect x="0" y="0" rx="20" ry="20" width="170" height="40" fill="url(#svcgrad)"/><text x="20" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Backend APIs</text></g>
-      <g filter="url(#svcShadow)" transform="translate(180,0)"><rect x="0" y="0" rx="20" ry="20" width="160" height="40" fill="url(#svcgrad)"/><text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Microservices</text></g>
-      <g filter="url(#svcShadow)" transform="translate(350,0)"><rect x="0" y="0" rx="20" ry="20" width="140" height="40" fill="url(#svcgrad)"/><text x="28" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Full‑Stack</text></g>
-      <g filter="url(#svcShadow)" transform="translate(500,0)"><rect x="0" y="0" rx="20" ry="20" width="210" height="40" fill="url(#svcgrad)"/><text x="16" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Databases (SQL/NoSQL)</text></g>
-      <g filter="url(#svcShadow)" transform="translate(720,0)"><rect x="0" y="0" rx="20" ry="20" width="150" height="40" fill="url(#svcgrad)"/><text x="52" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Cloud</text></g>
+    <g transform="translate(0,6)">
+      <g filter="url(#svcShadow)" transform="translate(0,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="170" height="40" fill="url(#svcgrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="166" height="16" fill="url(#svcgloss)"/>
+        <text x="20" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Backend APIs</text>
+      </g>
+      <g filter="url(#svcShadow)" transform="translate(180,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="160" height="40" fill="url(#svcgrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="156" height="16" fill="url(#svcgloss)"/>
+        <text x="18" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Microservices</text>
+      </g>
+      <g filter="url(#svcShadow)" transform="translate(350,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="140" height="40" fill="url(#svcgrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="136" height="16" fill="url(#svcgloss)"/>
+        <text x="28" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Full‑Stack</text>
+      </g>
+      <g filter="url(#svcShadow)" transform="translate(500,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="210" height="40" fill="url(#svcgrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="206" height="16" fill="url(#svcgloss)"/>
+        <text x="16" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Databases (SQL/NoSQL)</text>
+      </g>
+      <g filter="url(#svcShadow)" transform="translate(720,0)">
+        <rect x="0" y="0" rx="20" ry="20" width="150" height="40" fill="url(#svcgrad)" stroke="#0a0a0a" stroke-opacity="0.8"/>
+        <rect x="2" y="2" rx="18" ry="18" width="146" height="16" fill="url(#svcgloss)"/>
+        <text x="52" y="26" font-family="Segoe UI, Roboto, Helvetica, Arial" font-weight="600" font-size="14" fill="#ffffff">Cloud</text>
+      </g>
     </g>
   </svg>
 </p>
@@ -223,9 +219,9 @@
   I’m open to collaborations, private contracts, and interesting conversations. Reach out — I’d love to chat!
 </p>
 <p align="center">
-  <a href="https://x.com/WemaGoodness" title="DM on X"><img src="./button-x.svg" alt="DM on X"/></a>
-  <a href="mailto:goodnesswemaa@gmail.com" title="Email"><img src="./button-email.svg" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/wema-goodness/" title="LinkedIn"><img src="./button-linkedin.svg" alt="LinkedIn"/></a>
+  <a href="https://x.com/WemaGoodness" title="X / Twitter" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" width="48" height="48" alt="X / Twitter"/></a>&nbsp;&nbsp;
+  <a href="mailto:goodnesswemaa@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Email"/></a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/wema-goodness/" title="LinkedIn" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn"/></a>
 </p>
 
 <!-- Decorative Footer -->
