@@ -204,9 +204,6 @@
   <summary><b>Contribution candy</b> (fun visuals)</summary>
   <br/>
   <p>
-    <em>Note: Some visuals depend on external generators and may need setup in your profile repo.</em>
-  </p>
-  <p>
     <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="contribution snake"/>
   </p>
 </details>
